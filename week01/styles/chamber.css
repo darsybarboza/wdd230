@@ -1,13 +1,15 @@
 :root {
-    --main-bg-color: rgb(247, 247, 247);
-    --main-bg-color-1: rgb(220, 109, 92);
-    --main-bg-color-2: rgb(254, 160, 59);
+    --main-bg-color: #f7f7f7;
+    --main-bg-color-1: #dc6d5c;
+    --main-bg-color-2: #fea03b;
 }
 
 .main {
     text-align: center;
     margin: auto;
 }
+
+
 
 .purpose {
     background-color: var(--main-bg-color-2);
