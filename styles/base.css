@@ -12,7 +12,7 @@ body {
 /*mobile***/
 
 header {
-    background-color:#f7f2ed;
+    background-color:#f4f4f4;
     display: flex;
     align-items : center;
     justify-content: center;
@@ -134,7 +134,7 @@ main li a {
 footer {
   padding: 1rem;
   text-align: center;
-  background-color: rgb(244, 244, 244);
+  background-color: #f4f4f4;
   color:#020202;
 }
 
