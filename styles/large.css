@@ -1,16 +1,16 @@
 @media only screen and (min-width: 38rem) {
   button#hamburger {display: none;}
-  nav ul, nav ul.show {display: flex;}
-
-	nav ul li {
-		flex: 1 1 100%;
-	}
-
+  nav ul, nav ul.show {display:flex;}
+              
+        nav ul li {
+                flex: 1 1 100%;
+      }
+  
   header, main, nav, footer {
-    max-width: 900px;
-    margin: 0 auto;
+      max-width: auto;
+      margin: 0 auto;
   }
-
+  
   main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -19,4 +19,4 @@
   main h2 {grid-column: 1 / span 2;}
 
   
-} /* end media query */
+  } /* end media query */
