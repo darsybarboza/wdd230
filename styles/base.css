@@ -17,6 +17,7 @@ header {
     align-items : center;
     justify-content: center;
     padding: 20px;
+    position: relative;
 
     }
 
@@ -39,7 +40,7 @@ button#hamburger {
 	display: block;
 	padding-bottom: .6rem;
 	font-size: 2rem;
-	color: #fff;
+	color: #f9f9f9;
 	text-align: center;
 	width: 50px;
 	cursor: pointer;
@@ -51,20 +52,19 @@ button#hamburger.show::before {
 	content: "x";
 }
 
+nav ul{
+  display : none;
+}
+
+nav ul.show {
+  display: block;
+}
+
 
 nav{
     background-color:rgb(231, 133, 29);
     padding: 0;
     margin: 0;
-}
-
-nav ul{
-    display : none;
-}
-
-
-nav ul.show {
-  display: block;
 }
 
   nav ul { 
