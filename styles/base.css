@@ -17,6 +17,7 @@ header {
     align-items : center;
     justify-content: center;
     padding: 20px;
+    position: relative;
 
     }
 
@@ -29,7 +30,8 @@ img {
 
 h1 {
     font-size: 2rem;
-}  
+    padding-left: 5px;
+}
 
 
 /************************** NAVIGATION **************************/
@@ -80,6 +82,7 @@ nav a:hover {
 	background-color: rgba(10, 10, 10, 0.2);
 }
 
+/*==================================================*/
 main {padding: 1rem;}
 
 main h2 {
