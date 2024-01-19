@@ -1,4 +1,4 @@
-// Store the selected elements that we are going to use. 
+// Store the selected elements that we are going to use
 const hambutton = document.querySelector('#hamburger');
 const mainnav = document.querySelector('.navigation')
 
