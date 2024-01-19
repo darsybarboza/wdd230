@@ -3,7 +3,7 @@ const mybutton = document.querySelector('button');
 const mylist = document.querySelector('.input');
 
 console.log(document.querySelector('#favchap').value);
-mybutton.addEventListener('click', function() { 
+mybutton.addEventListener('click', function() {
   if (document.querySelector('#favchap').value !="") {
     const theItem = document.createElement('li');
     theItem.textContent = document.querySelector('#favchap').value
