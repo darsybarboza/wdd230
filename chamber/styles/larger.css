@@ -47,7 +47,7 @@
         align-items: center;
       }
     
-      .hero-content h1 {
+      .hero-content h2 {
         grid-area: hero-header;
         font-size: 3rem;
         font-weight: 600;
