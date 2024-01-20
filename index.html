@@ -32,10 +32,10 @@
   <nav>
     <button id="hamburger"></button>
     <ul class="navigation">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="index.html">Home</a></li>
       <li><a href="#">Chamber</a></li>
       <li><a href="#">Site Plan</a></li>
-      <li><a href="#">Form</a></li>
+      <li><a href="form.html">Form</a></li>
     </ul>
   </nav>
   <main>
@@ -52,20 +52,16 @@
     <div class="sidebyside">
     <section>
       <h3 class="card">Learning Activities</h3>
-      <ul>
-        <li><a href="#">Learning Activity</a></li>
-        <li><a href="#">Learning Activity</a></li>
-        <li><a href="#">Learning Activity</a></li>
-        <li><a href="#">Learning Activity</a></li>
-        <li><a href="#">Learning Activity</a></li>
-        <li><a href="#">Learning Activity</a></li>
-      </ul>
+      <div id="displayLinksHere"></div>
+   
     </section>
 
     <section>
       <h3 class="card">Information</h3>
       <p id="visitCount"></p>
-      <p>Weather Information will go here.</p>
+      <p>Current Temperature for Salem is <span id="temp"></span>°</p>
+        <p>We are currently enjoying <span id="desc"></span>°</p>
+        <img id="icon">
     </section>
   </div> <!-- end side by side -->
     <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11681.582179088186!2d-111.00684512638087!3d42.948868297780905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8756030a17653fb1%3A0xb9637fe5e4400f1f!2sThayne%2C%20WY%2083127!5e0!3m2!1sen!2sus!4v1683159164385!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -79,5 +75,7 @@
   <script src="scripts/navigation.js"></script>
   <script src="scripts/darkMode.js"></script>
   <script src="scripts/visitcounter.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/learnLinks.js"></script>
 </body>
 </html>
