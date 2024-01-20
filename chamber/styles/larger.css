@@ -50,7 +50,7 @@
       .hero-content h1 {
         grid-area: hero-header;
         font-size: 3rem;
-        font-weight: 700;
+        font-weight: 600;
         color: var(--hero-header-color);
         margin: -5px;
         padding: -10px;
