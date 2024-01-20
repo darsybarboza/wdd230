@@ -108,6 +108,7 @@ main section {
   width: 100%;
   padding: 1rem 2vw;
 }
+
 main section h2 {margin-top: 0;}
 
 /*Footer goes here*/
@@ -116,7 +117,7 @@ footer {
 }
 footer section {padding: 1rem 2vw;}
 footer p {margin: .1rem 0;}
-footer a {color:#015f72;}
+footer a {color:#505354;}
 footer section:nth-child(1) {
   display: grid;
   grid-template-columns: 80px auto;
