@@ -88,14 +88,13 @@ main p {
   background-image: url("../images/st1.png");
   width: 1500px;
   height: 400px;
-  display:grid
 
   
 }
 /*Hero goes here*/
 
 .hero{
-    background-image: url("../images/hero.png");
+    background-image: url("../images/hero-wide2.png");
   
 }
 .hero-content {
