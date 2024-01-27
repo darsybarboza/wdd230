@@ -88,6 +88,7 @@ main p {
   background-image: url("../images/st1.png");
   width: 1500px;
   height: 400px;
+  display:grid
 
   
 }
@@ -106,7 +107,11 @@ main p {
   }
   
   .hero-content a {
-    color: rgb(30, 255, 236);
+    color: rgb(255, 248, 30);
+  }
+
+  .hero-content p {
+    color: rgb(252, 252, 252);
   }
 
   .home-tittle {
