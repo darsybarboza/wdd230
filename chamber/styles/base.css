@@ -70,11 +70,33 @@ nav ul li:hover a {
   background-color: #c6440c;
   color: white;
 }
+/*Default Styling*/
+main h1 {
+  color:#015f72;
+  margin-left: 2vw;
+}
+main h2 {
+  color:#015f72;
+  margin-left: 2vw;
+}
+main p {
+  color:#333;
+  margin-left: 2vw;
+}
 
+.container {
+  background-image: url("../images/st1.png");
+  width: 1500px;
+  height: 400px;
+  display:grid
+
+  
+}
 /*Hero goes here*/
 
 .hero{
     background-image: url("../images/hero.png");
+  
 }
 .hero-content {
     
@@ -110,6 +132,28 @@ main section {
 }
 
 main section h2 {margin-top: 0;}
+/*Discover goes here*/
+section.gallery figure {
+  margin: 2rem 2vw;
+}
+section.gallery figcaption {
+  text-align: center;
+  color: #666;
+  font-weight: 600;;
+}
+section.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+section.gallerybroke img {
+  border-radius: 4px;
+}
+section.gallerysquished img {
+  width: 100%;
+  border-radius: 4px;
+}
+
 
 /*Footer goes here*/
 footer {

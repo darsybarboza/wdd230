@@ -97,5 +97,17 @@
       display: flex;
       justify-content: space-around;
     }
+
+    /*Discover*/
+  div.discover {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  section.gallery figure {max-width: 600px;}
+  section.gallery img:hover {
+    box-shadow: 0 0 10px #333;
+    border-radius: 12px;
+  }
+
   
   } /*end media query*/
