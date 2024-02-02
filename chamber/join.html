@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Chamber of Commerce">
+  <meta name="description" content="Discover Chamber of Commerce">
   <meta name="author" content="Darsy Macedo">
   <!--OG Meta-->
   <meta property="og:title" content="WDD 230 - Chamber - Darsy Macedo">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://darsybarboza.github.io/wdd230/">
-  <meta property="og:description" content="'WDD 230',Darsy Macedo, This is the WDD 230 assignment portal that will link to all assignments that need to be completed for the BYU-I WDD 230 course">
+  <meta property="og:description" content="Discover page for the Saint George Chamber of Commerce which includes a summary of information regarding the chamber and its members">
   <meta property="og:image" content="https://darsybarboza.github.io/wdd230/chamber/images/logochamber2.png">
 
   <link rel="icon" href="favicon.ico">
@@ -35,84 +35,95 @@
     <nav>
       <button id="menu-button">☰</button>
       <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Discover</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
         <li><a href="#">Directory</a></li>
-        <li><a href="#">Join</a></li>
+        <li class="active"><a href="join.html">Join</a></li>
       </ul>
-    </nav>
+  </nav>
 
-  </header>
+</header>
+    <main>
+    <h1>Join The Chamber</h1>
+    <div class="Join">
+        <section>
+            <h2>Become a Member</h2>
+            <form action="thankyou.html" method="get">
+              <label>Your Title <input type="text" name="title" pattern="[A-Za-z -]{7,}" title="seven or more"></label>
+              <label>First Name* <input type="text" name="fname" required></label>
+              <label>Last Name* <input type="text" name="lname" required></label>
+              <label>Email* <input type="text" name="email" placeholder="tom@mail.com" required></label>
+              <label>Cell Number* <input type="tel" name="phone"  required></label>
+              <label>Business Name* <input type="text" name="busname" required></label>
+              <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="level" value="not-for-profit"> NP Membership</label>
+                <label><input type="radio" name="level" value="Bronze Membership"> Bronze Membership</label>
+                <label><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
+                <label><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
+              </fieldset>
+        <label>Business Description<textarea name="description"></textarea></label>
+        <input name="today" value="xxx" type="hidden">
 
-  <main>
-<section class="hero">
-    <div class="hero-content">
-      <h2>Saint George Chamber of Commerce</h2>
-      <p>
-        As a hub for businesses, the Saint George, Utah Area Chamber of Commerce
-        is dedicated to supporting our members, elevating the local economy
-        and defend the prosperity of the community
-      </p>
+        <input type="submit" value="Apply">
+        </form>
+        </section>
+        <section>
+          <h2>Membership Level Details</h2>
+        <h3>NP Membership</h3>
+        <ul>
+          <li>Same As Gold</li>
+        </ul>
+        <p>Free</p>
+        <h3>Bronze Membership</h3>
+        <ul>
+          <li>Vote at Meetings</li>
+          <li>Listing on Directory</li>
+        </ul>
+        <p>$100</p>
+        <h3>Silver Membership</h3>
+        <ul>
+          <li>Vote at Meetings</li>
+          <li>Listing on Directory</li>
+          <li>Event Participation</li>
+          <li>Discounts on Advertising</li>
+        </ul>
+        <p>$200</p>
+        <h3>Gold Membership</h3>
+        <ul>
+          <li>Vote at Meetings</li>
+          <li>Ride in the Parade</li>
+          <li>Promotion on home page</li>
+        </ul>
+        <p>$300</p>
+        </section>
 
-      <a href="#">Join Now!</a>
     </div>
-</section>
-
-    <h2 class="home-title">
-    We're Dedicated to Supporting Our Members
-    </h2>
-
-
-
-<div class="cards">
-<section class="events">
-  <h2>Events Calendar</h2>
-  <p>Participate in all our events and meetings.</p>
-</section>
-<section class="weather">
-  <h3>Weather</h3>
-  <p>Sunny</p>
-  <p>Humidity is high</p>
-</section>
-<section class="spot">
-  <h3>Resources</h3>
-  <p>The Chamber is committed to delivering meaningful business resources to our members.</p>
-  <a href="#">Website</a>
-</section>
-<section class="spot">
-  <h3>Training</h3>
-  <p>The Chamber is committed to ensuring our members are at the “top of their game.”</p>
-  <a href="#">Website</a>
-</section>
-<section class="spot">
-  <h3>Networking</h3>
-  <p>The Chamber offers both in-person and digital networking to help connect businesses with each other.</p>
-  <a href="#">Website</a>
-</section>
-</div>
   </main>
-  <footer>
-    <section class="image">
-    <img src="images/chamber-big.png" alt="Site Logo">
-    <div>
-    <p>ST.George Area Chamber of Commerce</p>
-    <p>156 N. 200 E.</p>
-    <p>St George, UTAH 83420</p>
-  </div>
-    </section>
-    <section class="info">
-      <p>st.georgearea.org</p>
-      <p><a href="tel:(435)922-1135">(435)9221135</a></p>
-      <p>Find us on <a href="#">Google Maps</a></p>
-    </section>
-    <section class="information">
-      <p>&copy;2024 St George Area Chamber</p>
-      <p>Darsy Macedo</p>
-      <p>WDD 230 BYU-I Project</p>
-      <p id="lastModified">placeholder</p>
-    </section>
-  </footer>
-  <script src="scripts/scripts.js"></script>
+<footer>
+  <section>
+  <img src="images/chamber-big.png" alt="Site Logo">
+  <div>
+  <p>ST.George Area Chamber of Commerce</p>
+  <p>156 N. 200 E.</p>
+  <p>St George, UTAH 83420</p>
+</div>
+  </section>
+  <section>
+    <p> Email:</p>
+    <a href="mailto:info@stgeorgechamber.com"> info@stgeorgechamber.com</a>
+
+    <p><a href="tel:(435)922-1135">(435)9221135</a></p>
+    <p>Find us on <a href="#">Google Maps</a></p>
+  </section>
+  <section>
+    <p>&copy;2024 St George Area Chamber</p>
+    <p>Darsy Macedo</p>
+    <p>WDD 230 BYU-I Project</p>
+    <p id="lastModified">placeholder</p>
+  </section>
+</footer>
+<script src="scripts/scripts.js"></script>
 </body>
 
-</html>
+</html>  
