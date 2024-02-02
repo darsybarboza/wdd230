@@ -1,0 +1,86 @@
+/* Embrace the chaos! No more boring styles! */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #6c757d;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+form label.top input,
+form label.top select {
+    --webkit-appearance: none;
+    display: block;
+    font-size: 1.2rem;
+    border: solid 2px #696969;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 25rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: 1rem 0;
+    color: #696969;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #8b0000;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 25rem;
+}
+
+form label.top input:required:valid {
+    border-left: 8px solid #008000;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 45em) {
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 64em;
+        margin: auto;
+    }
+
+    form label.sbs {
+        padding: 0.8rem 0;
+    }
+}
