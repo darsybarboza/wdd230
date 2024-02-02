@@ -1,4 +1,13 @@
 /* Embrace the chaos! No more boring styles! */
+:root {
+    --box-space: .5rem 16px;
+    --validColor: #00F;
+    --errorColor: #F00;
+    --accent-color: #8b0000;
+    --rounded: 6px;
+  }
+  
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
