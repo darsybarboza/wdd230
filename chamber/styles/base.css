@@ -128,12 +128,7 @@ div.cards{
   grid-template-columns: 1fr;
   padding: 1rem 2vw;
 }
-main section {
-  background-color: #f8f7f7;
-  border: 1px dashed #f7f4f4;
-  width: 100%;
-  padding: 1rem 2vw;
-}
+
 
 main section h2 {margin-top: 0;}
 /*Discover goes here*/
@@ -158,6 +153,30 @@ section.gallerysquished img {
   border-radius: 4px;
 }
 
+/*Form Styling goes here*/
+form {margin: 1rem 2vw;}
+form label, form textarea{
+  display: block;
+  margin-bottom: 1rem;
+}
+form textarea{width: 300px;}
+form fieldset label{margin: .5rem 0;}
+form fieldset {margin-bottom: 1rem; width: 75%;}
+form input[type='text'], form input[type='tel'] {
+  display: block;
+  width: 300px
+}
+form fieldset legend {width: auto;}
+form input:valid {border: solid rgb(0, 23, 128) 2px;}
+form input:invalid {border: solid rgb(0, 0, 0) 2px;}
+form input[type='submit'] {
+  width: 300px;
+  border: solid #333 1px;
+  padding: 1rem 0;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: #f5a434;
+}
 
 /*Footer goes here*/
 footer {
@@ -165,7 +184,7 @@ footer {
 }
 footer section {padding: 1rem 2vw;}
 footer p {margin: .1rem 0;}
-footer a {color:#505354;}
+footer a {color:#043c4f;}
 footer section:nth-child(1) {
   display: grid;
   grid-template-columns: 80px auto;
