@@ -154,28 +154,58 @@ section.gallerysquished img {
 }
 
 /*Form Styling goes here*/
-form {margin: 1rem 2vw;}
+form {
+  margin: 1rem 2vw;
+  
+
+}
+
+form fieldset {
+  margin:2rem 0;
+  border: 1px solid #0e0f0f;
+  padding: 0.5rem;
+  border-radius: 14px;
+  max-width: 22rem;
+  background-color: rgba(239, 241, 243, 0.6);
+
+
+}
+  
 form label, form textarea{
   display: block;
   margin-bottom: 1rem;
+  border-radius: 14px;
 }
-form textarea{width: 300px;}
-form fieldset label{margin: .5rem 0;}
+form textarea{
+  width: 350px;
+  padding: 1.5em;
+}
+form fieldset label{
+  margin: .4rem ;
+  
+}
 form fieldset {margin-bottom: 1rem; width: 75%;}
-form input[type='text'], form input[type='tel'] {
+form input[type='text'], form input[type='tel'],form input[type='email']{ 
   display: block;
-  width: 300px
+  width: 350px;
+  padding: 0.55rem;
+  
 }
-form fieldset legend {width: auto;}
-form input:valid {border: solid rgb(0, 23, 128) 2px;}
-form input:invalid {border: solid rgb(0, 0, 0) 2px;}
+
+fieldset{
+  background-color: #a5814af3;
+}
+form fieldset legend {width: auto ;}
+form input:valid {border: solid blue 2px;}
+form input:invalid {border: solid red 2px;}
 form input[type='submit'] {
-  width: 300px;
-  border: solid #333 1px;
+  width: 200px;
+  border: solid #000000 1px;
   padding: 1rem 0;
-  border-radius: 10px;
-  font-weight: 600;
-  background-color: #f5a434;
+  border-radius: 2px;
+  font-weight: 400;
+  background-image: linear-gradient(to right, rgba(179, 130, 8, 0.351) , rgba(240, 172, 46, 0.617));
+  cursor: pointer;
 }
 
 /*Footer goes here*/
