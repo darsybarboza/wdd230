@@ -1,0 +1,76 @@
+{
+    "members": [
+    {
+        "name": "Sky West",
+        "address":"444 S River Rd, St. George, UT 84790",
+        "phone": "+14356343000",
+        "url" :"https://skywest.com/",
+        "logopath": "skywest.webp",
+        "level": 1
+    },
+    {
+        "name": "Greater Zion",
+        "address":"11 E Tabernacle St, St. George, UT 84770",
+        "phone": "(435) 301-7400",
+        "url" :"https://greaterzion.com/",
+        "logopath": "createrzion.webp",
+        "level": 1
+    },
+    {
+        "name": "Black desert",
+        "address":"250 S Weiskopf Way, Ivins, UT 84738",
+        "phone": "(435) 222-7830",
+        "url" :"https://www.blackdesertresort.com/",
+        "logopath": "black desert.webp",
+        "level": 1
+    },
+    {
+        "name": "Intermountain Healthcare",
+        "address":"1380 E Medical Center Dr St George, UT 84790 ",
+        "phone": "435-251-1000",
+        "url" :"https://intermountainhealthcare.org/locations/st-george-regional-hospital/",
+        "logopath": "inter.webp",
+        "level": 2
+    },
+    {
+        "name": "Utah Tech University",
+        "address":"225 S Univ Ave, St. George, UT 84770",
+        "phone": "+315-555-4991",
+        "url" :"https://utahtech.edu/",
+        "logopath": "tech.webp",
+        "level": 2
+    },
+    {
+        "name": "Watts Construction",
+        "address":"795 Factory Dr Suite B, St. George, UT 84790",
+        "phone": "(435) 673-9096",
+        "url" :"https://wattsconst.com/",
+        "logopath": "wattscompany.webp",
+        "level": 1
+    },
+    {
+        "name": "State Bank",
+        "address":"395 E St George Blvd",
+        "phone": "(435) 674-4164",
+        "url" :"https://www.sbsu.com/",
+        "logopath": "statebanl.webp",
+        "level": 2
+    },
+    {
+        "name": "TechRide",
+        "address":"475 S. Donlee Dr. St. George Utah 84770",
+        "phone": "435-850-7820.",
+        "url" :"https://techridge.com//",
+        "logopath": "ride.webp",
+        "level": 3
+    },
+    {
+        "name": "Hughes General Contractor",
+        "address":"62 W Industrial Dr.Washington, UT 84780",
+        "phone": "(435) 628-0047",
+        "url" :"https://www.hughesgc.com/",
+        "logopath": "concrete.webp",
+        "level": 3
+    }
+]
+}

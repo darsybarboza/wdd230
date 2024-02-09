@@ -208,6 +208,45 @@ form input[type='submit'] {
   cursor: pointer;
 }
 
+
+
+/*GRID layout here*/
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+  justify-content: center;
+  
+}
+div.grid section {
+  text-align: center;
+  margin: 1rem 0;
+  border: dashed 1px #f5a434;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.grid img:first-child {
+  width: 350px;
+  height: 250px;
+}
+div.grid h3 {margin: .2rem 0;}
+div.grid p {margin: .2rem 0;}
+
+/*LIST layout here*/
+div.list section {
+  display: grid;
+  grid-template-columns: auto auto auto auto 55px;
+  align-items: center;
+  margin: .5rem 0;
+  border:  4px #1d1c1a;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(to bottom left, #f3f1f1 50%, #f9f9f9 100%);
+}
+div.list img:first-child {display: none;}
+
+
+
 /*Footer goes here*/
 footer {
   background-color: #ddd;

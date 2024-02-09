@@ -1,85 +1,123 @@
 {
     "weeks": [
-        {
-            "week": "Week 01",
-            "links": [
-                {
-                    "url": "week01/holygrail.html",
-                    "title": "HG Layout"
-                },
-                {
-                    "url": "week01/media-query.html",
-                    "title": "mQueries"
-                }
-            ]
-        },
-        {
-            "week": "Week 02",
-            "links": [
-                {
-                    "url": "week02/design.html",
-                    "title": "Design"
-                },
-                {
-                    "url": "week02/dom.html",
-                    "title": "DOM"
-                }
-            ]
-        },
-        {
-            "week": "Week 03",
-            "links": [
-                {
-                    "url": "week03/images/landscape.webp",
-                    "title": "WebP"
-                },
-                {
-                    "url": "week03/responsive-images.html",
-                    "title": "Responsive Images"
-                },
-                {
-                    "url": "week03/bom-copy.html",
-                    "title": "BOM"
-                }
-            ]
-        },
-        {
-            "week": "Week 04",
-            "links": [
-                {
-                    "url": "https://codepen.io/AussieDude/pen/mdoXKJJ",
-                    "title": "Pseudo CP"
-                },
-                {
-                    "url": "week04/images/sc2.png",
-                    "title": "W3S Image"
-                },
-                {
-                    "url": "week04/tablebuild.html",
-                    "title": "Tables"
-                }
-            ]
-        },
-        {
-            "week": "Week 05",
-            "links": [
-                {
-                    "url": "https://codepen.io/AussieDude/pen/bGZjPWw",
-                    "title": "PseudoCP 2"
-                },
-                {
-                    "url": "week05/new-ward-members.json",
-                    "title": "Create JSON"
-                },
-                {
-                    "url": "week05/prophets.html",
-                    "title": "Fetch Act."
-                },
-                {
-                    "url": "week05/weather.html",
-                    "title": "Weather Act."
-                }
-            ]
-        }
+      {
+        "week": "Week 01",
+        "links": [
+          {
+            
+            "url": "week01/holygrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "mQueries"
+          },
+          {
+            "url": "chamber/site-plan.html",
+            "title": "Project Site Plan"
+          }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "week02/dom.html",
+            "title": "DOM"
+          },
+          {
+            "url": "",
+            "title": "Book of Mormon Chapters"
+          },
+          {
+            "url": "chamber/index.html",
+            "title": "Week 2 COC Home Page"
+          }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "links": [
+          {
+            "url": "Assignm",
+            "title": "WebP"
+          },
+          {
+            "url": "Assignment B",
+            "title": "Responsive Images"
+          },
+          {
+            "url": "Assignment C",
+            "title": "LazyLoad"
+          },
+          {
+            "url": "Assignment C",
+            "title": "Local Storage API BOM"
+          },
+          {
+            "url": "Assignment C",
+            "title": "Week 3 COC Discover Page"
+          }
+        
+          
+        
+        ]
+      },
+      {
+        "week": "Week 04",
+        "links": [
+          {
+            "url": "Assignment A",
+            "title": "CSS Pseudo-Classes"
+          },
+          {
+            "url": "Assignment B",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "Assignment C",
+            "title": "Table"
+          },
+          {
+            "url": "Assignment C",
+            "title": "HTML Form"
+          },
+          {
+            "url": "Assignment C",
+            "title": "Week 4 COC Join Page"
+          }
+
+
+        ]
+      },
+      {
+        "week": "Week 05",
+        "links": [
+          {
+            "url": "Assignment A",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "Assignment B",
+            "title": "New Members JSO"
+          },
+          {
+            "url": "Assignment C",
+            "title": "Prophets"
+          },
+          {
+            "url": "Assignment C",
+            "title": "Weather"
+          },
+          {
+            "url": "chamber/directory.html",
+            "title": "Week 5 COC Directory Page"
+          }
+        ]
+      }
     ]
-}
+  }
