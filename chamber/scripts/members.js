@@ -25,15 +25,15 @@ const displayMembers = (allMembers) => {
     const myLevel = document.createElement('img')
     switch(member.level) {
       case 1:
-        myLevel.src = "./images/bronze-medal.png"
+        myLevel.src = "./images/bronze.png"
         myLevel.alt="Bronze"
         break;
       case 2:
-        myLevel.src = "./images/silver-medal.png"
+        myLevel.src = "./images/silver.png"
         myLevel.alt="Silver"
         break;
         case 3:
-          myLevel.src = "./images/gold-medal.png"
+          myLevel.src = "./images/gold.png"
           myLevel.alt="Gold"
         break;
       default:
