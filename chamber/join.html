@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ST George Chamber of Commerce Join Page">
+  <meta name="author" content="Darsy Macedo">
+  <!--OG Meta-->
+  <meta property="og:title" content="WDD 230 - Chamber - Darsy Macedo">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://darsybarboza.github.io/wdd230/">
+  <meta property="og:description" content="ST George Chamber of Commerce Join Page">
+  <meta property="og:image" content="https://darsybarboza.github.io/wdd230/chamber/images/logochamber2.png">
+
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <title>join Saint George Chamber of Commerce</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/logochamber2.png" alt="St George Area Logo">
+    <div>
+      <h1>Saint George Chamber of Commerce</h1>
+      <p>Chamber of Commerce</p>
+    </div>
+    <nav>
+      <button id="menu-button">☰</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li class="active"><a href="join.html">Join</a></li>
+      </ul>
+  </nav>
+
+</header>
+    <main>
+    <h1>Join The Chamber</h1>
+    <div class="Join">
+        <section>
+            <h2>Become a Member</h2>
+            <form action="thankyou.html" method="get">
+              <label>Your Title <input type="text" name="title" pattern="[A-Za-z -]{7,}" title="seven or more"></label>
+              <label>First Name* <input type="text" name="fname" required></label>
+              <label>Last Name* <input type="text" name="lname" required></label>
+              <label>Email* <input type="email" name="mail" placeholder="tom@mail.com" required></label>
+              <label>Cell Number* <input type="tel" name="phone"  required></label>
+              <label>Business Name* <input type="text" name="busname" required></label>
+              <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="level" value="not-for-profit"> NP Membership</label>
+                <label><input type="radio" name="level" value="Bronze Membership"> Bronze Membership</label>
+                <label><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
+                <label><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
+              </fieldset>
+        <label>Business Description<textarea name="description"></textarea></label>
+        <input name="today" value="xxx" type="hidden">
+
+        <input type="submit" value="Apply">
+        </form>
+        </section>
+        <section>
+          <h2>Membership Level Details</h2>
+        <h3>NP Membership</h3>
+        <ul>
+          <li>Same As Gold</li>
+        </ul>
+        <p>Free</p>
+        <h3>Bronze Membership</h3>
+        <ul>
+          <li>Vote at Meetings</li>
+          <li>Listing on Directory</li>
+        </ul>
+        <p>$100</p>
+        <h3>Silver Membership</h3>
+        <ul>
+          <li>Vote at Meetings</li>
+          <li>Listing on Directory</li>
+          <li>Event Participation</li>
+          <li>Discounts on Advertising</li>
+        </ul>
+        <p>$200</p>
+        <h3>Gold Membership</h3>
+        <ul>
+          <li>Vote at Meetings</li>
+          <li>Ride in the Parade</li>
+          <li>Promotion on home page</li>
+        </ul>
+        <p>$300</p>
+        </section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="image">
+      <img src="images/logochamber2.png" alt="Site Logo">
+    <div>
+    <p>ST.George Area Chamber of Commerce</p>
+    <p>156 N. 200 E.</p>
+    <p>St George, UTAH 83420</p>
+  </div>
+    <div class="info">
+      <p>Email:
+        <a href="mailto:info@stgeorgechamber.com"> info@stgeorgechamber.com</a>
+      </p>
+      <p><a href="tel:(435)922-1135">(435)9221135</a></p>
+      <p>Find us on <a href="#">Google Maps</a></p>
+    </div>
+    <div class="information" >
+      <p>&copy;2024 St George Area Chamber</p>
+      <p>Darsy Macedo</p>
+      <p>WDD 230 BYU-I Project</p>
+      <p id="lastModified">placeholder</p>
+    </div>
+    </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/visit.js"></script>
+</body>
+</html>
