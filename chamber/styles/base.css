@@ -119,7 +119,6 @@ main p {
     margin-bottom: 90px;
     margin-left:auto;
     
-
   }
 
 /* Cards go Here */
@@ -226,8 +225,8 @@ div.grid section {
   overflow: hidden;
 }
 div.grid img:first-child {
-  width: 350px;
-  height: 250px;
+  width: 430px;
+  height: 350px;
 }
 div.grid h3 {margin: .2rem 0;}
 div.grid p {margin: .2rem 0;}
