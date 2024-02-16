@@ -43,6 +43,12 @@
     left: 15%;
   }
 
+  
+
+  .hero-content p {
+    grid-area: hero-text;
+  }
+
   div.cards {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
