@@ -35,7 +35,7 @@
     <nav>
       <button id="menu-button">☰</button>
       <ul>
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
@@ -45,6 +45,7 @@
   </header>
 
   <main>
+    <div id="banner">Come and participate in our meeting on Wednesday at 7:00 p.m. </div>
 <section class="hero">
     <div class="hero-content">
       <h2>Saint George Chamber of Commerce</h2>
@@ -62,32 +63,16 @@
     We're Dedicated to Supporting Our Members
     </h2>
 
-
-
-<div class="cards">
+<div class="cards" id="cards">
 <section class="events">
   <h2>Events Calendar</h2>
   <p>Participate in all our events and meetings.</p>
 </section>
 <section class="weather">
-  <h3>Weather</h3>
-  <p>Sunny</p>
-  <p>Humidity is high</p>
-</section>
-<section class="spot">
-  <h3>Resources</h3>
-  <p>The Chamber is committed to delivering meaningful business resources to our members.</p>
-  <a href="#">Website</a>
-</section>
-<section class="spot">
-  <h3>Training</h3>
-  <p>The Chamber is committed to ensuring our members are at the “top of their game.”</p>
-  <a href="#">Website</a>
-</section>
-<section class="spot">
-  <h3>Networking</h3>
-  <p>The Chamber offers both in-person and digital networking to help connect businesses with each other.</p>
-  <a href="#">Website</a>
+  <h2>Weather for <span id="town"></span></h2>
+  <p class="current">Now: <span id="temp">x</span> with <span id="desc">x</span></p>
+  <h3>Three day Forecast</h3>
+  <div id="forecast"></div>
 </section>
 </div>
   </main>
@@ -112,7 +97,11 @@
       <p id="lastModified">placeholder</p>
     </section>
   </footer>
-  <script src="scripts/scripts.js"></script>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/weatherCurrent.js"></script>
+  <script src="scripts/weatherforecast.js"></script>
+  <script src="scripts/spotlight.js"></script>
 </body>
 
 </html>
