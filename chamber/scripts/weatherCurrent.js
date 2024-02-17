@@ -1,7 +1,7 @@
 //Current Forecast
 const API = "437209d363a4387bb2f5dffcea58bbee"
-const Lat = "42.9106"
-const Long = "-76.802231"
+const Lat = "37.095169"
+const Long = "-113.575974"
 
 const currentWeather = `//api.openweathermap.org/data/2.5/weather?lat=${Lat}&lon=${Long}&appid=${API}&units=imperial`
 
