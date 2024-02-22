@@ -409,12 +409,25 @@ div.cards .spot {
 
 /*Banner goes here*/
 div#banner {
-  background-color: #f5a434;
+  background-color: #ffa600;;
   padding: 1rem 2vw;
   text-align: center;
   font-weight: 600;
 }
 div#banner.hide {
+  display: none;
+}
+
+div#banner p {
+  color: rgb(0, 0, 0);
+}
+
+#banner span {
+  font-weight: 400;
+  float: right;
+  margin-right: 0.5rem;
+}
+#banner.hide {
   display: none;
 }
 

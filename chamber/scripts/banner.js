@@ -1,8 +1,15 @@
+const banner = document.querySelector('#banner');
+var DayOfWeek = new Date().getDay();
 
+if (DayOfWeek == 1 || DayOfWeek == 2 || DayOfWeek == 3) {
+    banner.style.display = "block";
 
-//banner
-const today = new Date()
-//console.log(today.getDay())
-if (today.getDay() > 4) {
-  document.querySelector('#banner').className = "hide"
+} else {
+    banner.style.display = "none";
 }
+
+const bannerClose = document.querySelector('#close-banner');
+
+bannerClose.addEventListener('click', function() {
+    banner.style.display = "none";
+});
